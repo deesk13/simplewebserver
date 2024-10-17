@@ -21,6 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+``
 # Developed by : DEVA DHARSHINI.I
 # Reg.no : 212223240026
 from http.server import HTTPServer, BaseHTTPRequestHandler
@@ -85,7 +86,7 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-
+```
 ## OUTPUT:
 ![Screenshot 2024-10-17 213118](https://github.com/user-attachments/assets/f893923f-24af-4add-9399-6ca6956d5f34)
 ![Screenshot 2024-10-17 213135](https://github.com/user-attachments/assets/fb6abad6-924f-4b85-9002-949ade4bc6cd)
