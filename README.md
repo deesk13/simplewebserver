@@ -21,56 +21,50 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-``
 # Developed by : DEVA DHARSHINI.I
 # Reg.no : 212223240026
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<!DOCTYPE html>
 <html>
 <head>
-<title>Software Companies</title>
+<title>Top five software companies in revenue</title>
 </head>
-<body bgcolor="cyan">
-<table border="4" cellspacing="1" cellpadling="1" height="300" width="700" bgcolor="white">
-<caption>TOP SOFTWARE COMPANIES WITH REVENUE</caption>
-		<tr>
-			<th>COMPANY</th>
-			<th>REVENUE</th>
-			<th>PERCENTAGE</th>
-		</tr>
-		<tr>
-			<td>Google</td>
-			<td>4541397</td>
-			<td>1</td>
-		</tr>
-
-		<tr>
-			<td>Meta</td>
-			<td>3216464</td>
-			<td>2</td>
-		</tr>
-
-		<tr>
-			<td>SAMSUNG</td>
-			<td>1649465</td>
-			<td>3</td>
-		</tr>
-                 <tr>
-			<td>TCS</td>
-			<td>51918518</td>
-			<td>4</td>
-		</tr>
-
-                 <tr>
-			<td>Infosys</td>
-			<td>5191587</td>
-			<td>5</td>
-		</tr>
-
-
-
-	</table>
+<body>
+<h1 align="center">
+TOP FIVE SOFTWARE COMPANIES IN REVENUE</h1>
+<table align="center" border="2" cellspacing="5" cellpadding="5" width="800" height="500">
+<tr>
+<th>RANK</th>
+<th>COMPANY NAME</th>
+<th>REVENUE</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Apple(AAPL)</td>
+<td>$385.70 B </td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alphabet(Google)</td>
+<td>$307.39 B</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Microsoft</td>
+<td>$227.58 B</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Ibm</td>
+<td>$61.85 B</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Oracle</td>
+<td>$51.62 B</td>
+</tr>
+</table>
 </body>
 </html>
 
